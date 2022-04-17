@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML</title>
+</head>
+<body style="background-color: aqua;">
+    <h1 style="font-family: Verdana, Geneva, Tahoma, sans-serif;">Imagem dinamica</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplismente aumente e dminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 700px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagen dinamica">
+    </picture>
+    <source media="(min-width: )" srcset="" type="image/">
+    <h1>Colocando audio</h1>
+    <p>aperte o play para escutar a musica</p>
+    <audio src="midia/Sickick - Talking to the Moon (Bruno Mars Remix)_160k.mp3" controls preload="metadata"></audio>
+    <br>
+    <video src="midia/Lagoa Redonda - Pirambu  Sergipe [Dji mini 2].mp4" width="500px" controls></video>
+    
+    
+</body>
+</html>
