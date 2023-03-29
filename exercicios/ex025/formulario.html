@@ -9,19 +9,21 @@
         *{
             font-family: 'Times New Roman', Times, serif;
         }
-        body{
-            margin: auto;
-            align-items: center;
-
-        }
+        
     </style>
 </head>
 <body>
     <h1>Meu primeiro formulario</h1>
-    <form>
-        <p>nome: <input type="text" name="nome" id="nome"></p>
-        <p>sobrenome: <input type="text" name="sobrenome" id="sobrenome"></p>
-        <p><input type="submit" value="enviar"></p>
+    <form action="cadastro.php" method="post">
+        <p>
+            <label for="Nome">Nome</label>
+            <input type="text" name="nome" id="nome">
+        </p>
+        <p>
+            <label for="idade">idade</label>
+            <input type="text" name="idade" id="idade">
+        </p>
+        <input type="submit" value="enviar">
     </form>
 </body>
 </html>
